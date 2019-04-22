@@ -1,4 +1,4 @@
-# KitchenSenorArray
+# Project Aim of - Kitchen Senor Array
 ## Project Goal: 
 1. add senor in the kitchen to allow Home Assistant to process all automation objectives
 2. must be completely reversible without leaving damage - as I rent
@@ -16,3 +16,12 @@
 * back door status - detect if the backdoor is left open,  alert me, if left on and I go bed or out.
 * window status - detect if the backdoor is left open,  alert me, if left on and I go bed or out.  
 
+
+# Plan
+- Prototype Circuit 
+    -  make on breadboard
+    -  create an Arduino sketch, to post senor to MQTT
+- 3D Print Senor Case
+    - Motion sensor case - I have stl file design I used before
+    - DHT11 with LDR - have an existing design for this
+    - Dishwasher LDR holder - this will be new and very custom to this model
